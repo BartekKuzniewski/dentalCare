@@ -8,6 +8,11 @@
 	padding: 0;
 }
 
+html {
+    font-size: 62.5%; // 10px
+    scroll-behavior: smooth;
+}
+
 body {
-	background-color: #333;
+	background-color: $light-dark;
 }
