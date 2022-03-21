@@ -17,6 +17,12 @@ body {
 	background-color: $white-color;
 }
 
+.wrapper {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1200px;
+}
+
 // navigation
 
 .navbar {
@@ -58,7 +64,7 @@ body {
 		width: 100%;
 		background-color: $white-color;
 		clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
-		transition: clip-path .2s linear;
+		transition: clip-path 0.2s linear;
 
 		&--active {
 			clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
@@ -72,6 +78,11 @@ body {
 			a {
 				color: $light-dark;
 				text-decoration: none;
+				transition: color .3s;
+
+				&:hover {
+					color: $main-color;
+				}
 			}
 		}
 	}
@@ -87,5 +98,60 @@ body {
 		background: none;
 		border: none;
 		cursor: pointer;
+	}
+}
+
+// MEDIA QUERIES
+
+@media (min-width: 768px) {
+	.navbar {
+		&__nav {
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			justify-content: space-between;
+			margin: 0 2em;
+		}
+
+		&__list {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-direction: row;
+			position: static;
+			width: auto;
+			clip-path: none;
+
+			&-item {
+				margin: 0;
+				a {
+					padding: 0.8em;
+
+				}
+			}
+		}
+
+		&__burger-icon {
+			display: none;
+		}
+	}
+}
+
+@media (min-width: 992px) {
+	.navbar {
+
+		&__nav {
+			margin: 0 3.5em;
+		}
+		&__btn {
+			display: block;
+			padding: .5em 3em;
+			font-size: 2rem;
+			color: $white-color;
+			background-color: $main-color;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+		}
 	}
 }
