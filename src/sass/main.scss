@@ -9,10 +9,52 @@
 }
 
 html {
-    font-size: 62.5%; // 10px
-    scroll-behavior: smooth;
+	font-size: 62.5%; // 10px
+	scroll-behavior: smooth;
 }
 
 body {
-	background-color: $light-dark;
+	background-color: #fff;
+}
+
+// navigation
+
+.navbar {
+	&__nav {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding: 1em;
+		border-bottom: 2px solid $gray-color;
+	}
+
+	&__logo {
+		font-size: 2.5rem;
+		margin-left: .5em;
+
+		a {
+			color: $light-dark;
+			text-decoration: none;
+		}
+		span {
+			color: $main-color;
+		}
+	}
+
+	&__list {
+		display: none;
+	}
+
+	&__btn {
+		display: none;
+	}
+
+	&__burger-icon {
+		padding: .5em;
+		font-size: 3rem;
+		background: none;
+		border: none;
+		cursor: pointer;
+
+	}
 }
