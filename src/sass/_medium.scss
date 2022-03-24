@@ -1,0 +1,43 @@
+
+@media (min-width: 768px) {
+	.navbar {
+		&__nav {
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			justify-content: space-between;
+			margin: 0 2em;
+		}
+
+		&__list {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-direction: row;
+			position: static;
+			width: auto;
+			clip-path: none;
+
+			&-item {
+				margin: 0;
+				a {
+					padding: 0.8em;
+				}
+			}
+		}
+
+		&__burger-icon {
+			display: none;
+		}
+	}
+
+	.header {
+		h1 {
+			font-size: 4.2rem;
+		}
+
+		p {
+			font-size: 2rem;
+		}
+	}
+}
