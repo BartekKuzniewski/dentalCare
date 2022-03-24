@@ -20,10 +20,21 @@ html {
 	max-width: 1200px;
 }
 
+.section-padding {
+	padding: 7em 2.5em;
+}
+
+.section-heading {
+	margin-bottom: 1.5em;
+	font-size: 3rem;
+	color: $light-dark;
+	text-align: center;
+	text-transform: uppercase;
+}
 
 @import './nav';
 @import './header';
-
+@import './about-us';
 
 
 
