@@ -36,6 +36,8 @@
 		top: 80px;
 		right: 0;
 		width: 100%;
+		background-color: $white-color;
+		opacity: .9;
 		clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
 		transition: clip-path 0.2s linear;
 
@@ -49,6 +51,7 @@
 			padding: 1em 0;
 
 			a {
+				position: relative;
 				color: $light-dark;
 				text-decoration: none;
 				transition: color .2s;
