@@ -1,4 +1,8 @@
 @media (min-width: 768px) {
+	.section-heading {
+		font-size: 3.4rem;
+	}
+
 	.navbar {
 		&__nav {
 			display: flex;
@@ -45,11 +49,21 @@
 		}
 	}
 
-	.services {
+	.about-us {
+		&__box {
+			&-text {
+				&-title {
+					font-size: 2.8rem;
+				}
 
-		.section-heading {
-			font-size: 3.4rem;
+				&-description {
+					font-size: 1.8rem;
+				}
+			}
 		}
+	}
+
+	.services {
 		.container {
 			display: flex;
 			flex-direction: row;
