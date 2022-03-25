@@ -2,10 +2,10 @@
 	.navbar {
 		&__nav {
 			margin: 0 3.5em;
-		}
 
-		.btn {
-			display: block;
+			.btn {
+				display: block;
+			}
 		}
 	}
 
@@ -22,13 +22,13 @@
 	.about-us {
 		.section-heading {
 			font-size: 3.6rem;
-		}	
+		}
 
 		&__box {
 			flex-direction: row;
-			
+
 			&-img {
-			flex-basis: 50%;
+				flex-basis: 50%;
 			}
 
 			&-text {
@@ -47,4 +47,3 @@
 		}
 	}
 }
-
