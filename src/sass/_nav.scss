@@ -3,7 +3,7 @@
 	top: 0;
 	width: 100%;
 	height: 80px;
-    background-color: $white-color;
+	background-color: $white-color;
 	border-bottom: 1px solid $light-dark;
 	z-index: 100;
 
@@ -37,7 +37,7 @@
 		right: 0;
 		width: 100%;
 		background-color: $white-color;
-		opacity: .9;
+		opacity: 0.9;
 		clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
 		transition: clip-path 0.2s linear;
 
@@ -46,7 +46,7 @@
 		}
 
 		&-item {
-			display: inline-block;
+			display: block;
 			font-size: 2rem;
 			padding: 1em 0;
 
@@ -54,7 +54,22 @@
 				position: relative;
 				color: $light-dark;
 				text-decoration: none;
-				transition: color .2s;
+				transition: color 0.2s;
+
+				&::before {
+					content: '';
+					position: absolute;
+					bottom: -0.5em;
+					height: .1em;
+					width: 100%;
+					transform: scaleX(0);
+					transition: transform 0.3s;
+					background-color: $main-color;
+				}
+
+				&:hover::before {
+					transform: scaleX(1);
+				}
 
 				&:hover {
 					color: $main-color;

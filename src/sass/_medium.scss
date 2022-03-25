@@ -21,6 +21,11 @@
 				margin: 0;
 				a {
 					padding: 0.8em;
+
+					&::before {
+						bottom: 0.35em;
+						width: 70%;
+					}
 				}
 			}
 		}
