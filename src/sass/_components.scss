@@ -4,6 +4,13 @@
 	max-width: 1200px;
 }
 
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
 .section-padding {
 	padding: 7em 2.5em;
 }

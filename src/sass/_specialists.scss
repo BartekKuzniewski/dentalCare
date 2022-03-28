@@ -1,0 +1,31 @@
+.specialists {
+	&__box {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		max-width: 350px;
+		padding: 2em 4em;
+		margin-bottom: 2em;
+		background-color: $main-color;
+		color: $white-color;
+		text-align: center;
+        border-radius: .4em;
+
+		img {
+            margin-top: 2em;
+			width: 20em;
+		}
+
+        &-title {
+            font-size: 1.8rem;
+			margin-top: 1.5em;
+        }
+
+        &-text {
+            font-size: 1.5rem;
+			line-height: 1.6em;
+			padding: 1em;
+        }
+	}
+}
