@@ -39,4 +39,19 @@
 			}
 		}
 	}
+
+	.specialists {
+		&__box {
+			&-img {
+				margin-top: 1em;
+			}
+			&-title {
+				font-size: 2rem;
+				margin-top: 1em;
+			}
+			&-text {
+				font-size: 1.6rem;
+			}
+		}
+	}
 }
