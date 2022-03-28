@@ -19,7 +19,12 @@
 		color: $light-dark;
         text-align: center;
 		background-color: $white-color;
+		transition: transform .3s;
 		box-shadow: 0 0.5em 1em rgba(0, 0, 0, 0.1);
+
+		&:hover {
+			transform: scale(1.05);
+		}
 
 		&-img {
 			margin-top: 1em;
