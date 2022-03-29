@@ -59,4 +59,28 @@
 			}
 		}
 	}
+
+.reviews {
+	&__box {
+
+		margin: 0 1.5em;
+
+		&-text {
+			font-size: 1.7rem;
+		}
+		&-stars {
+			i {
+                font-size: 1.7rem;
+			}
+		}
+		&-client {
+            font-size: 1.6rem;
+        }
+
+        &-caption {
+            font-size: 1.3rem;
+        }
+		
+	}
+}
 }

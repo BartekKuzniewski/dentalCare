@@ -82,10 +82,17 @@
 
 	.specialists {
 		.container {
-			display: flex;
 			flex-direction: row;
-			align-items: center;
-			justify-content: center;
+			flex-wrap: wrap;
+		}
+		&__box {
+			margin: 1em;
+		}
+	}
+
+	.reviews {
+		.container {
+			flex-direction: row;
 			flex-wrap: wrap;
 		}
 		&__box {
