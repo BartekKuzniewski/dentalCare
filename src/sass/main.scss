@@ -3,12 +3,13 @@
 @import './colors';
 @import './components';
 
-@import './nav';
-@import './header';
-@import './about-us';
-@import './services';
-@import './specialists';
-@import './reviews';
+@import './layout/nav';
+@import './layout/header';
+@import './layout/about-us';
+@import './layout/services';
+@import './layout/specialists';
+@import './layout/reviews';
+@import './layout/appointment';
 
 @import './small';
 @import './medium';
