@@ -1,0 +1,58 @@
+.reviews {
+	background-color: $gray-color;
+
+	&__box {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		max-width: 32em;
+		padding: 1em;
+		margin-bottom: 2em;
+		color: $light-dark;
+		text-align: center;
+		background-color: $white-color;
+		box-shadow: 0 0.5em 1em rgba(0, 0, 0, 0.1);
+		border-radius: 0.4em;
+
+		&-img {
+			img {
+				margin-top: 1em;
+				width: 11em;
+				border-radius: 50%;
+			}
+		}
+
+		&-title {
+			font-size: 1.8rem;
+			margin-top: 1em;
+		}
+
+		&-text {
+			font-size: 1.5rem;
+			line-height: 1.6em;
+			padding: 1.5em 0.7em 0em 0.7em;
+		}
+
+		&-stars {
+			background-color: $gray-color;
+            margin-top: 1em;
+            padding: 0.5em 1em;
+
+			i {
+				color: $main-color;
+                font-size: 1.5rem;
+			}
+		}
+
+        &-client {
+            margin-top: 1em;
+            font-size: 1.5rem;
+        }
+
+        &-caption {
+            margin:.5em 0 1em 0;
+            font-size: 1.2rem;
+        }
+	}
+}
