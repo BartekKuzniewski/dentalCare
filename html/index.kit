@@ -225,30 +225,31 @@
         <section id="appointment" class="appointment section-padding">
             <div class="wrapper">
                 <h2 class="section-heading">Umów Wizytę</h2>
-
-                <form>
-                    <div class="appointment-box">
+                <form class="appointment__form">
+                    <div class="appointment__form-box">
                         <label for="name">Imię i nazwisko:</label>
                         <input type="text" id="name" placeholder="Podaj imię i nazwisko">
+                        <p class="appointment__form-box-error-text">Podaj imię i nazwisko</p>
                     </div>
-                    <div class="appointment-box">
+                    <div class="appointment__form-box">
                         <label for="email">E-mail:</label>
                         <input type="email" id="email" placeholder="Podaj e-mail">
+                        <p class="appointment__form-box-error-text">Error</p>
                     </div>
-                    <div class="appointment-box">
+                    <div class="appointment__form-box">
                         <label for="number">Nr telefonu:</label>
                         <input type="number" id="number" placeholder="Podaj numer telefonu">
+                        <p class="appointment__form-box-error-text">Error</p>
                     </div>
-                    <div class="appointment-box">
+                    <div class="appointment__form-box">
                         <label for="date">Data wizyty:</label>
-                        <input type="datetime-local" id="date" placeholder="dd/mm/rrrr, --:--">
+                        <input type="datetime-local" id="date" placeholder="Wybierz datę">
+                        <p class="appointment__form-box-error-text">Error</p>
                     </div>
                     <button class="btn">Umów wizytę</button>
                 </form>
             </div>
         </section>
-
-
     </main>
 
 
