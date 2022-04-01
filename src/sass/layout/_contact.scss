@@ -1,15 +1,15 @@
 .contact {
 	&__box {
-		img {
-			width: 100%;
-			border-radius: 0.4em;
+			img {
+                max-width: 100%;
+				border-radius: 0.4em;
+			}
+		
+		.btn {
+			margin: 2em 0 3em 0;
 		}
 
-        .btn {
-            margin: 2em 0 3em 0;
-        }
-
-		&-info {
+		&-heading {
 			&-street {
 				margin: 2em 0 1em 0;
 				font-size: 2.3rem;
@@ -17,44 +17,21 @@
 
 			&-text {
 				font-size: 1.8rem;
-                font-weight: 300;
-                margin-bottom: 2em;
+				font-weight: 300;
+				margin-bottom: 2em;
 			}
 		}
 
-		&-address {
+		&-info {
 			display: flex;
-            margin-top: 1em;
-            font-size: 1.8rem;
-            font-weight: 300;
-            i {
-                font-size: 2rem;
-                margin-right: 1em;
-                color: $main-color;
-            }
-
-		}
-		&-phone {
-			display: flex;
-            margin-top: 1em;
-            font-size: 1.8rem;
-            font-weight: 300;
-            i {
-                font-size: 2rem;
-                margin-right: 1em;
-                color: $main-color;
-            }
-		}
-		&-mail {
-			display: flex;
-            margin-top: 1em;
-            font-size: 1.8rem;
-            font-weight: 300;
-            i {
-                font-size: 2rem;
-                margin-right: 1em;
-                color: $main-color;
-            }
+			margin-top: 1em;
+			font-size: 1.8rem;
+			font-weight: 300;
+			i {
+				font-size: 2rem;
+				margin-right: 1em;
+				color: $main-color;
+			}
 		}
 	}
 }

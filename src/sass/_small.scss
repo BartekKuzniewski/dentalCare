@@ -54,4 +54,26 @@
 			}
 		}
 	}
+
+	.contact {
+		&__box {
+			&-heading {
+				&-street {
+					font-size: 2.4rem;
+				}
+
+				&-text {
+					font-size: 1.9rem;
+				}
+			}
+
+			&-info {
+				font-size: 1.9rem;
+
+				i {
+					font-size: 2.1rem;
+				}
+			}
+		}
+	}
 }

@@ -99,4 +99,13 @@
 			margin: 1em;
 		}
 	}
+
+	.contact {
+		.container {
+			flex-direction: row;
+		}
+		&__box {
+			margin: 3em;
+		}
+	}
 }
