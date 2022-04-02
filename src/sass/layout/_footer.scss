@@ -1,0 +1,12 @@
+.footer {
+    font-size: 1.6rem;
+    padding: 1.8em;
+    background-color: $gray-color;
+    border-top: .1em solid $dark-color;
+    text-align: center;
+
+    &__author {
+        color: $main-color;
+        font-weight: 700;
+    }
+}
