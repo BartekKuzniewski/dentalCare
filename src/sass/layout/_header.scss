@@ -1,11 +1,12 @@
 @use './colors' as *;
+@use './mixins' as *;
 
 .header {
 	position: relative;
 	background-image: url('../img/home-bg.jpg');
 	background-size: cover;
 	background-position: center;
-	padding-top: 8rem;
+	padding-top: 8em;
 	height: 100%;
 	z-index: 0;
 
@@ -21,10 +22,7 @@
 	}
 
 	&__text {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		flex-direction: column;
+		@include flexColumn;
 		height: calc(100vh - 80px);
 		padding: 2em;
 		color: $dark-color;

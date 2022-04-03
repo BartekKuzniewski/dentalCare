@@ -1,11 +1,11 @@
 @use './colors' as *;
+@use './mixins' as *;
+
 .specialists {
 	scroll-margin-top: 6em;
+	
 	&__box {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
+		@include flexColumn;
 		max-width: 36em;
 		padding: 2em 3em;
 		margin-bottom: 2em;

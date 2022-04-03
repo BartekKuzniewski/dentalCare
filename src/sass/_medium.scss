@@ -1,3 +1,5 @@
+@use './mixins' as *;
+
 @media (min-width: 768px) {
 	.section-heading {
 		font-size: 3.4rem;
@@ -6,17 +8,14 @@
 	.navbar {
 		&__nav {
 			display: flex;
-			flex-direction: row;
 			align-items: center;
 			justify-content: space-between;
+			flex-direction: row;
 			margin: 0 2em;
 		}
 
 		&__list {
-			display: flex;
-			justify-content: center;
-			align-items: center;
-			flex-direction: row;
+			@include flexRow;
 			position: static;
 			width: auto;
 			clip-path: none;
@@ -65,10 +64,7 @@
 
 	.services {
 		.container {
-			display: flex;
-			flex-direction: row;
-			align-items: center;
-			justify-content: center;
+			@include flexRow;
 			flex-wrap: wrap;
 		}
 		&__box {

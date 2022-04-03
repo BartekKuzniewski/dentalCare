@@ -1,13 +1,12 @@
 @use './colors' as *;
+@use './mixins' as *;
+
 .reviews {
 	scroll-margin-top: 6em;
 	background-color: $gray-color;
 
 	&__box {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
+		@include flexColumn;
 		max-width: 32em;
 		padding: 1em;
 		margin-bottom: 2em;
@@ -26,9 +25,9 @@
 		}
 
 		&-text {
+			padding: 1.5em 0.7em 0em 0.7em;
 			font-size: 1.5rem;
 			line-height: 1.6em;
-			padding: 1.5em 0.7em 0em 0.7em;
 		}
 
 		&-stars {
