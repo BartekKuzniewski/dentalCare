@@ -16,7 +16,6 @@ const closeMobileNav = () => {
 }
 
 
-
 const handleCurrentYear = () => {
 	const year = new Date().getFullYear();
 	footerYear.innerText = year;

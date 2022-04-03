@@ -1,6 +1,6 @@
-.about-us {
+@use './colors' as *;
 
-	
+.about-us {	
 	&__box {
 		display: flex;
 		flex-direction: column;

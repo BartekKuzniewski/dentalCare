@@ -1,22 +1,21 @@
-@import './reset';
-@import './base';
-@import './colors';
-@import './components';
+@use './reset' as *;
+@use './base' as *;
+@use './components' as *;
 
-@import './layout/nav';
-@import './layout/header';
-@import './layout/about-us';
-@import './layout/services';
-@import './layout/specialists';
-@import './layout/reviews';
-@import './layout/contact';
-@import './layout/appointment';
-@import './layout/footer';
+@use './layout/nav' as *;
+@use './layout/header' as *;
+@use './layout/about-us' as *;
+@use './layout/services' as *;
+@use './layout/specialists' as *;
+@use './layout/reviews' as *;
+@use './layout/contact' as *;
+@use './layout/appointment' as *;
+@use './layout/footer' as *;
 
 
-@import './small';
-@import './medium';
-@import './large';
+@use './small';
+@use './medium';
+@use './large';
 
 
 

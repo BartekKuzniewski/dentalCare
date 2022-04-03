@@ -1,3 +1,4 @@
+@use './colors' as *;
 .reviews {
 	background-color: $gray-color;
 
@@ -31,23 +32,23 @@
 
 		&-stars {
 			background-color: $gray-color;
-            margin-top: 1em;
-            padding: 0.5em 1em;
+			margin-top: 1em;
+			padding: 0.5em 1em;
 
 			i {
 				color: $main-color;
-                font-size: 1.5rem;
+				font-size: 1.5rem;
 			}
 		}
 
-        &-client {
-            margin-top: 1em;
-            font-size: 1.5rem;
-        }
+		&-client {
+			margin-top: 1em;
+			font-size: 1.5rem;
+		}
 
-        &-caption {
-            margin:.5em 0 1em 0;
-            font-size: 1.2rem;
-        }
+		&-caption {
+			margin: 0.5em 0 1em 0;
+			font-size: 1.2rem;
+		}
 	}
 }
