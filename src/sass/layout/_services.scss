@@ -1,6 +1,7 @@
 @use './colors' as *;
 .services {
 	background-color: $gray-color;
+	scroll-margin-top: 6em;
 
 	&__box {
 		display: flex;

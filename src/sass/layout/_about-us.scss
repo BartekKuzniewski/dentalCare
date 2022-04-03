@@ -1,6 +1,7 @@
 @use './colors' as *;
 
 .about-us {	
+	scroll-margin-top: 6em;
 	&__box {
 		display: flex;
 		flex-direction: column;

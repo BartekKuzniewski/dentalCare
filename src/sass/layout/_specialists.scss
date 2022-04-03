@@ -1,5 +1,6 @@
 @use './colors' as *;
 .specialists {
+	scroll-margin-top: 6em;
 	&__box {
 		display: flex;
 		flex-direction: column;

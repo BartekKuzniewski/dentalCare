@@ -1,7 +1,9 @@
 @use './colors' as *;
 
 .contact {
+	scroll-margin-top: 6em;
     color: $light-dark;
+	
 	&__box {
 		img {
             object-fit: cover;

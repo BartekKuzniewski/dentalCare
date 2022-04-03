@@ -1,5 +1,6 @@
 @use './colors' as *;
 .reviews {
+	scroll-margin-top: 6em;
 	background-color: $gray-color;
 
 	&__box {
