@@ -13,9 +13,9 @@
 @use './layout/footer' as *;
 
 
-@use './small';
-@use './medium';
-@use './large';
+@use './small' as *;
+@use './medium' as *;
+@use './large' as *;
 
 
 

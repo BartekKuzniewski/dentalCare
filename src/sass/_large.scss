@@ -5,7 +5,13 @@
 
 	.navbar {
 		&__nav {
-			margin: 0 3.5em;
+			margin: 0 2em;
+
+			&__logo {
+				a {
+					font-size: 3rem;
+				}
+			}
 
 			.btn {
 				display: block;
@@ -38,11 +44,11 @@
 				margin-left: 3em;
 
 				&-title {
-					font-size: 3rem;
+					font-size: 2.9rem;
 				}
 
 				&-description {
-					font-size: 2rem;
+					font-size: 1.9rem;
 				}
 			}
 		}
@@ -51,7 +57,7 @@
 	.specialists {
 		&__box {
 			&-title {
-				font-size: 2.4rem;
+				font-size: 2.6rem;
 			}
 
 			&-text {
