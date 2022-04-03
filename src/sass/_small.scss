@@ -56,6 +56,9 @@
 	}
 
 	.contact {
+		&__map {
+			height: 50em;
+		}
 		&__box {
 			&-heading {
 				&-street {

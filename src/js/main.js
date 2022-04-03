@@ -25,10 +25,10 @@ function initMap() {
 	const rolna = { lat: 52.176, lng: 21.026 };
 	const domaniewska = { lat: 52.182, lng: 21.007};
 	const centerPosition = {lat:52.177, lng: 21.016};
-	
+
 	// map
 	const map = new google.maps.Map(document.getElementById('map'), {
-		zoom: 14,
+		zoom: 13,
 		center: centerPosition,
 	});
 
