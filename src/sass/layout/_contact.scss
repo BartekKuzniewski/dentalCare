@@ -3,6 +3,11 @@
 .contact {
 	scroll-margin-top: 6em;
     color: $light-dark;
+
+	&__map {
+		height: 400px;
+		width: 400px;
+	}
 	
 	&__box {
 		img {

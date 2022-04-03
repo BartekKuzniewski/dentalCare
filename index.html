@@ -34,6 +34,7 @@
 
                 <button class="btn">Umów wizytę</button>
 
+
                 <button class="navbar__burger-icon"> <i class="fas fa-bars"></i> </button>
             </div>
         </div>
@@ -284,15 +285,14 @@
                         <button class="btn">Umów wizytę</button>
 
                     </div>
-
-
                 </div>
+                <div id="map" class='contact__map'></div>
             </div>
         </section>
 
         <section id="appointment" class="appointment section-padding">
             <div class="wrapper">
-                <h2 class="section-heading">Umów Wizytę</h2>
+                <h2 class="section-heading">Umów wizytę</h2>
                 <form class="appointment__form">
                     <div class="appointment__form-box">
                         <label for="name">Imię i nazwisko:</label>
@@ -327,6 +327,7 @@
 
 
     <script src="./dist/js/main.min.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBs-H0PsmoeYs9-8a-c4WwqMijgEbIr6sg&callback=initMap"></script>
 </body>
 
 </html>
