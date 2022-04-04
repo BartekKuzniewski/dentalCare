@@ -7,15 +7,13 @@
 		&__nav {
 			margin: 0 2em;
 
-			&__logo {
-				a {
-					font-size: 3rem;
-				}
-			}
-
+			
 			.btn {
 				display: block;
 			}
+		}
+		&__logo {
+				font-size: 3rem;
 		}
 	}
 
@@ -49,6 +47,7 @@
 
 				&-description {
 					font-size: 1.9rem;
+					margin-bottom: 2em;
 				}
 			}
 		}
@@ -101,6 +100,7 @@
 			}
 
 			&-info {
+				margin-bottom: 1em;
 				font-size: 2.1rem;
 
 				i {
