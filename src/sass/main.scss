@@ -1,5 +1,5 @@
-@use './reset' as *;
-@use './base' as *;
+@use './base/reset' as *;
+@use './base/base' as *;
 @use './components' as *;
 
 
@@ -14,9 +14,9 @@
 @use './layout/footer' as *;
 
 
-@use './small' as *;
-@use './medium' as *;
-@use './large' as *;
+@use './media-queries/small' as *;
+@use './media-queries/medium' as *;
+@use './media-queries/large' as *;
 
 
 

@@ -1,8 +1,9 @@
-@use './colors' as *;
-@use './mixins' as *;
+@use './abstracts/colors' as *;
+@use './abstracts/mixins' as *;
 
 .about-us {
 	scroll-margin-top: 6em;
+	
 	&__box {
 		@include flexColumn;
 		margin: 1.5em 0;
