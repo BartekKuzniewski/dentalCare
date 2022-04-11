@@ -39,7 +39,6 @@
 	}
 
 	.header {
-		
 		h1 {
 			font-size: 4.2rem;
 		}
@@ -70,7 +69,6 @@
 		}
 		&__box {
 			margin: 1em;
-
 		}
 	}
 
@@ -95,16 +93,24 @@
 	}
 
 	.contact {
-		.container {
-			flex-direction: row;
-		}
 		&__box {
-			margin: 3em;
+			margin: 3em 3em 0 3em;
 
 			&-heading {
+				&-street {
+					font-size: 2.6rem;
+				}
+
 				&-text {
-					font-size: 1.8rem;
-					line-height: 1.8em;
+					font-size: 2.1rem;
+				}
+			}
+
+			&-info {
+				font-size: 2rem;
+
+				i {
+					font-size: 2.2rem;
 				}
 			}
 		}

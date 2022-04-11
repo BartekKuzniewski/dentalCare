@@ -13,8 +13,12 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		height: 40em;
 		width: 100%;
+
+		.small {
+			height: 40em;
+			width: 90%;
+		}
 	}
 
 	&__box {
@@ -63,7 +67,7 @@
 		}
 
 		&-btn {
-			margin: 4em 0 8em 0;
+			margin: 4em 0;
 		}
 
 		&-map-heading {

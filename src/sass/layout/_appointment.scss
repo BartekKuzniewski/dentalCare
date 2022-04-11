@@ -12,7 +12,8 @@
 		padding: 4em 2em;
 		background-color: $white-color;
 		border-radius: 0.4em;
-		border: .1em solid $dark-color;
+		// border: .1em solid $d;
+		box-shadow: 0 0.5em 1em rgba(0, 0, 0, 0.2);
 
 		&-box {
 			display: flex;
