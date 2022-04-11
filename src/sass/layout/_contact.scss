@@ -15,9 +15,9 @@
 		justify-content: center;
 		width: 100%;
 
-		.small {
+		.map {
 			height: 40em;
-			width: 90%;
+			width: 100%;
 		}
 	}
 
@@ -67,13 +67,8 @@
 		}
 
 		&-btn {
-			margin: 4em 0;
+			margin: 4em 0 6em;
 		}
 
-		&-map-heading {
-			font-size: 1.4rem;
-			text-align: center;
-			margin-bottom: 1em;
-		}
 	}
 }
